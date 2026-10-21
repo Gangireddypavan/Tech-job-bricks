@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hn-jobs-app",
+      "runtimeExecutable": "pwsh",
+      "runtimeArgs": ["-NoProfile", "-File", "scripts/run_app_local.ps1"],
+      "port": 8501
+    }
+  ]
+}
